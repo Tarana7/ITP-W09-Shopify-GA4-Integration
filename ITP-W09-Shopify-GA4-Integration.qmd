@@ -1,0 +1,58 @@
+---
+title: "ITP-W09: Shopify Store - GA4 Setup and Shopify Integration"
+author: "Tim Arana"
+format:
+  html:
+    embed-resources: true
+    toc: true
+    toc-depth: 2
+    theme: cosmo
+    code-fold: true
+editor: visual
+---
+
+# Introduction
+
+This report documents my setup and integration of Google Analytics 4 (GA4) with my **CPP Farm Store Practice** Shopify store. The purpose of the setup was to connect an ecommerce storefront to GA4 and begin collecting analytics data that could be used to understand customer behavior, traffic, product interest, and shopping activity.
+
+# GA4 Property and Web Stream Evidence
+
+![CPP Farm Store Practice GA4 web stream](images/ga4-web-stream.png)
+
+*Figure 1. GA4 web stream created for CPP Farm Store Practice, showing the Shopify storefront URL, Measurement ID, and enhanced measurement settings.*
+
+I created a GA4 property and web data stream specifically for CPP Farm Store Practice. The web stream uses the Shopify storefront URL and has enhanced measurement enabled to support the collection of website interaction data.
+
+# Shopify Connection Evidence
+
+![Google Analytics active in Shopify](images/shopify-ga4-active.png)
+
+*Figure 2. Shopify's Google & YouTube integration showing Google Analytics as active.*
+
+I connected the GA4 property to my Shopify practice store through Shopify's Google & YouTube integration. After completing the setup, Shopify displayed Google Analytics as **Active**, confirming that the connection had been established.
+
+# Analytics and Data Collection Evidence
+
+![GA4 realtime activity](images/ga4-realtime.png)
+
+*Figure 3. GA4 showing one active user in the last 30 minutes after the Shopify integration was completed.*
+
+After connecting the property, I visited the Shopify storefront to test the integration. GA4 initially showed no activity, but shortly afterward the property recorded one active user in the United States. This provided evidence that data was successfully being transmitted from the Shopify store to the new GA4 property.
+
+# Technical Issue Documentation
+
+I encountered two issues during the setup process. First, the Google account connected to Shopify's Google & YouTube app did not initially have access to the GA4 property I created. I resolved this by providing the connected Google account with access to the GA4 property. Second, GA4 initially reported that data collection was pending and indicated that a new property could take time to begin displaying data. After completing the Shopify connection and visiting the storefront, Realtime began showing activity, confirming that the integration was working.
+
+# CPP Farm Store Analytics Reflection
+
+GA4 and Shopify analytics could help CPP Farm Store understand how customers discover and interact with its online storefront. The store could track traffic sources, page views, product views, engagement, and customer movement through the shopping experience. Ecommerce data could also help identify which products receive the most interest, where customers leave the purchasing process, and which marketing channels generate valuable traffic. For CPP Farm Store, this information could support decisions about product promotion, website improvements, campaign strategy, and seasonal merchandising. Combining GA4 behavior data with Shopify sales information would provide a stronger view of the customer journey across digital touchpoints.
+
+# Appendix
+
+## GitHub Repository
+
+[GitHub Repository](https://github.com/Tarana7/ITP-W09-Shopify-GA4-Integration)
+
+## GitHub Pages
+
+[GitHub Pages](https://tarana7.github.io/ITP-W09-Shopify-GA4-Integration/)
